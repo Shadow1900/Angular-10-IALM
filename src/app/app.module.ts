@@ -7,6 +7,7 @@ import { HelloComponent } from './hello.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ListarMascotasComponent } from './listar-mascotas/listar-mascotas.component';
 import { AgregarMascotaComponent } from './agregar-mascota/agregar-mascota.component';
+import { AdoptarComponent } from './adoptar/adoptar.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, AppRoutingModule],
@@ -14,7 +15,7 @@ import { AgregarMascotaComponent } from './agregar-mascota/agregar-mascota.compo
     AppComponent,
     HelloComponent,
     ListarMascotasComponent,
-    AgregarMascotaComponent,
+    AgregarMascotaComponent,AdoptarComponent
   ],
   bootstrap: [AppComponent],
 })
