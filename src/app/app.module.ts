@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ListarMascotasComponent } from './listar-mascotas/listar-mascotas.component';
 import { AgregarMascotaComponent } from './agregar-mascota/agregar-mascota.component';
 import { AdoptarComponent } from './adoptar/adoptar.component';
+import { VetenrinariaComponent } from './vetenrinaria/vetenrinaria.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, AppRoutingModule],
@@ -15,7 +16,9 @@ import { AdoptarComponent } from './adoptar/adoptar.component';
     AppComponent,
     HelloComponent,
     ListarMascotasComponent,
-    AgregarMascotaComponent,AdoptarComponent
+    AgregarMascotaComponent,
+    AdoptarComponent,
+    VetenrinariaComponent,
   ],
   bootstrap: [AppComponent],
 })
